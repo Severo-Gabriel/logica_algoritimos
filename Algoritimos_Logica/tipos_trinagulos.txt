@@ -4,14 +4,14 @@ var
    TRI, EQ, ES: logico
 
 inicio
-   escreva("Digite o primeiro lado: ")
-   leia(L1)
+   Escreva("Digite o primeiro lado: ")
+   Leia(L1)
 
-   escreva("Digite o segundo lado: ")
-   leia(L2)
+   Escreva("Digite o segundo lado: ")
+   Leia(L2)
 
-   escreva("Digite o terceiro lado: ")
-   leia(L3)
+   Escreva("Digite o terceiro lado: ")
+   Leia(L3)
 
    TRI <- (L1 < L2 + L3) e (L2 < L1 + L3) e (L3 < L1 + L2)
 
@@ -19,8 +19,8 @@ inicio
 
    ES <- (L1 <> L2) e (L2 <> L3) e (L1 <> L3)
 
-   escreval("O triangulo é valido? ", TRI)
-   escreval("O triangulo é EQUILATERO? ", EQ)
-   escreval("O triangulo é ESCALENO? ", ES)
+   Escreval("O triangulo é valido? ", TRI)
+   Escreval("O triangulo é EQUILATERO? ", EQ)
+   Escreval("O triangulo é ESCALENO? ", ES)
 
 fimalgoritmo
