@@ -1,0 +1,34 @@
+algoritmo "soma_matriz"
+
+var
+   A: vetor[1..5,1..5] de inteiro
+   i, j: inteiro
+
+funcao somaMatriz(): inteiro
+var
+   x, y, soma: inteiro
+inicio
+   soma <- 0
+
+   para x de 1 ate 5 faca
+      para y de 1 ate 5 faca
+         soma <- soma + A[x,y]
+      fimpara
+   fimpara
+
+   retorne soma
+fimfuncao
+
+
+inicio
+
+   para i de 1 ate 5 faca
+      para j de 1 ate 5 faca
+         escreva("Digite A[", i, ",", j, "]: ")
+         leia(A[i,j])
+      fimpara
+   fimpara
+
+   escreval("Soma dos elementos = ", somaMatriz())
+
+fimalgoritmo
